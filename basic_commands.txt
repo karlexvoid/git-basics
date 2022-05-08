@@ -8,3 +8,11 @@ git add filename : used to add a particular file in staging area
 git add -A : used to add all the files in staging area 
 git commit -m "change name" : takes a snap shot of the project's currently staged changes 
 git checkout filename : used to match the file with last commit 
+git checkout -f : used to match all the files with last commit
+
+git log : used to check the logs of the commits 
+git log -p -no of commits : returns of commits with detailed changes 
+git diff : compares working tree with staging area 
+git diff --staged : compares staged area with last commit
+
+git commit -a -m "message" : skips staging area and directly commits 
