@@ -16,3 +16,14 @@ git diff : compares working tree with staging area
 git diff --staged : compares staged area with last commit
 
 git commit -a -m "message" : skips staging area and directly commits 
+
+git rm : removes the file
+git rm --cached : only remove file from staging area , but stays on hard disk 
+git status -s :used to display the current status of local repo
+
+git ignore :
+
+filename : ignore the file form every where within project
+/filname : ignore the file form .ignore directory 
+*extension : ignore the file with the mentioned extenstion
+foldername/ : ignore the folder 
