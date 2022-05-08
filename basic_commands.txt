@@ -1,29 +1,37 @@
 basic git commands :
 
-git config --user.name "abhishek"  : user to save name
-git config --user.email "abhishek@gmail.com"  : user to save email
+    git config --user.name "abhishek"  : user to save name
+    git config --user.email "abhishek@gmail.com"  : user to save email
 
-git status : used to check status of files 
-git add filename : used to add a particular file in staging area
-git add -A : used to add all the files in staging area 
-git commit -m "change name" : takes a snap shot of the project's currently staged changes 
-git checkout filename : used to match the file with last commit 
-git checkout -f : used to match all the files with last commit
+    git status : used to check status of files 
+    git add filename : used to add a particular file in staging area
+    git add -A : used to add all the files in staging area 
+    git commit -m "change name" : takes a snap shot of the project's currently staged changes 
+    git checkout filename : used to match the file with last commit 
+    git checkout -f : used to match all the files with last commit
 
-git log : used to check the logs of the commits 
-git log -p -no of commits : returns of commits with detailed changes 
-git diff : compares working tree with staging area 
-git diff --staged : compares staged area with last commit
+    git log : used to check the logs of the commits 
+    git log -p -no of commits : returns of commits with detailed changes 
+    git diff : compares working tree with staging area 
+    git diff --staged : compares staged area with last commit
 
-git commit -a -m "message" : skips staging area and directly commits 
+    git commit -a -m "message" : skips staging area and directly commits 
 
-git rm : removes the file
-git rm --cached : only remove file from staging area , but stays on hard disk 
-git status -s :used to display the current status of local repo
+    git rm : removes the file
+    git rm --cached : only remove file from staging area , but stays on hard disk 
+    git status -s :used to display the current status of local repo
 
 git ignore :
 
-filename : ignore the file form every where within project
-/filname : ignore the file form .ignore directory 
-*extension : ignore the file with the mentioned extenstion
-foldername/ : ignore the folder 
+    filename : ignore the file form every where within project
+    /filname : ignore the file form .ignore directory 
+    *extension : ignore the file with the mentioned extenstion
+    foldername/ : ignore the folder 
+
+git branch :
+
+    git branch branch_name : creates a new branch 
+    git checkout branch_name : switch to branch mentioned 
+    git merge brnach_name : merges the branch into master branch
+    git branch : shows all the branches 
+    git checkout -b branch_name : creates and swtich to branch 
